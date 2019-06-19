@@ -9,4 +9,3 @@ COPY selenoid-exporter.php selenoid-exporter.php
 EXPOSE 9600
 
 CMD php -S 0.0.0.0:9600 selenoid-exporter.php
-e n
