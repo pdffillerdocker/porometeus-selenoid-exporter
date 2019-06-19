@@ -6,7 +6,7 @@ Prometheus exporter for Selenoid Hub  metrics.
 
 ```sh
     $ git clone https://github.com/pdffillerdocker/prometheus-selenoid-exporter.git
-    $ cd porometeus-selenoid-exporter
+    $ cd prometheus-selenoid-exporter
     $ docker build -t pdffiller/prometheus-selenoid-exporter .
 ```
 
