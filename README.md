@@ -19,7 +19,7 @@ You can run it like this:
 SELENOID_STATUS_URL - Selenoid Hub status url
 
 ```sh
-    $  docker run -p 8000:8000 -e SELENOID_STATUS_URL=https://example.com/status pdffiller/prometheus-selenoid-exporter
+    $  docker run -p 9600:9600 -e SELENOID_STATUS_URL=https://example.com/status pdffiller/prometheus-selenoid-exporter
 ```
 
 ## What else?
