@@ -2,7 +2,7 @@ FROM php:cli-alpine
 
 MAINTAINER Dmytro Sychevsky <sych@pdffiller.com>
 
-ENV SELENOID_STATUS_URL="http://localhost:8080/staus"
+ENV SELENOID_STATUS_URL="http://localhost:8080/status"
 
 COPY selenoid-exporter.php selenoid-exporter.php
 
