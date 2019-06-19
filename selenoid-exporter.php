@@ -15,6 +15,12 @@ if (empty($json) || !array($json)) {
     exit(0);
 }
 
-foreach (array_slice($json, 0,4) as $key => $val){
+if (isset($json['state'])){
+    $data = $json['state'];
+}else{
+    $data = $json;
+}
+
+foreach (array_slice($data, 0,4) as $key => $val){
     echo 'selenoid_state_'.$key.'{hostname="'.$hostname.'"} '.$val.PHP_EOL;
 }
