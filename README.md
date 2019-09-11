@@ -25,3 +25,5 @@ SELENOID_STATUS_URL - Selenoid Hub status url
 ## What else?
 
 Open an issue or PR if you have more suggestions, questions or ideas about what to add.
+
+pdffillerdocker/prometheus-selenoid-exporter is licensed under the [MIT License](https://github.com/pdffillerdocker/prometheus-selenoid-exporter/teamcity-docker-agent/blob/master/LICENSE)
